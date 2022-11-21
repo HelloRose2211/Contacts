@@ -34,7 +34,7 @@
                     <tabBarItem key="tabBarItem" title="Item" id="FBN-Vd-syq"/>
                     <navigationItem key="navigationItem" title="Root View Controller" id="Mt4-wL-DLi"/>
                     <connections>
-                        <segue destination="mGz-Yj-bGD" kind="show" id="sWV-ap-Vk5"/>
+                        <segue destination="mGz-Yj-bGD" kind="show" identifier="contactDetailsVC" id="sWV-ap-Vk5"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kxW-WU-Yhr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -141,7 +141,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="omp-5s-DNg" kind="relationship" relationship="viewControllers" id="1aE-br-s42"/>
-                        <segue destination="QGZ-9X-gOX" kind="show" id="YKy-Pe-BhK"/>
+                        <segue destination="QGZ-9X-gOX" kind="show" identifier="sectionVC" id="YKy-Pe-BhK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RXe-Ks-1hH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
