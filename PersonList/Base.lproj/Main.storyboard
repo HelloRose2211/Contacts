@@ -83,7 +83,7 @@
             </objects>
             <point key="canvasLocation" x="2277" y="-348"/>
         </scene>
-        <!--Section Table View Controller-->
+        <!--Item-->
         <scene sceneID="KaM-uY-EaT">
             <objects>
                 <tableViewController id="QGZ-9X-gOX" customClass="SectionTableViewController" customModule="PersonList" customModuleProvider="target" sceneMemberID="viewController">
@@ -106,6 +106,7 @@
                             <outlet property="delegate" destination="QGZ-9X-gOX" id="KEz-8T-Ynf"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="PWs-nK-xgU"/>
                     <navigationItem key="navigationItem" id="Sau-kP-i4n"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9I-0B-jPK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -141,7 +142,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="omp-5s-DNg" kind="relationship" relationship="viewControllers" id="1aE-br-s42"/>
-                        <segue destination="QGZ-9X-gOX" kind="show" identifier="sectionVC" id="YKy-Pe-BhK"/>
+                        <segue destination="QGZ-9X-gOX" kind="relationship" relationship="viewControllers" id="8oE-KG-LY5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RXe-Ks-1hH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
