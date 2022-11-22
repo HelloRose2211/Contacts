@@ -29,11 +29,12 @@ class PersonListViewController: UITableViewController {
     
     //MARK: - Navigation
 
-   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let indexPath = tableView.indexPathForSelectedRow {
-            let detailVC = segue.destination as? ContactDetailsViewController else { return }
+            guard let detailVC = segue.destination as? ContactDetailsViewController else { return }
             detailVC.person = persons[indexPath.row]
         }
     }
 
 }
+
