@@ -129,12 +129,12 @@
             </objects>
             <point key="canvasLocation" x="-399" y="-3"/>
         </scene>
-        <!--Tab Bar View Controller-->
+        <!--Person List-->
         <scene sceneID="h0W-j1-lZA">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="4nw-m3-40W" customClass="TabBarViewController" customModule="PersonList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="Ej2-yZ-dGi"/>
+                    <navigationItem key="navigationItem" title="Person List" id="Ej2-yZ-dGi"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ehf-Zk-1ex">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
